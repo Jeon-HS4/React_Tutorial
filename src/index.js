@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -8,12 +8,13 @@ import Library from './ch03/library';
 import Clock from './ch04/clock';
 import CommentList from './ch05/CommentList';
 import NotificationList from './ch06/NotificationList';
+import Accomodate from './ch07/accommodate';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <NotificationList/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Accomodate />
+  </React.StrictMode>
 );
 
 
