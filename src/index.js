@@ -9,11 +9,12 @@ import Clock from './ch04/clock';
 import CommentList from './ch05/CommentList';
 import NotificationList from './ch06/NotificationList';
 import Accomodate from './ch07/accommodate';
+import ConfirmButton from './ch08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accomodate />
+    <ConfirmButton/>
   </React.StrictMode>
 );
 
