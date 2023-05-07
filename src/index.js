@@ -12,12 +12,13 @@ import Accomodate from './ch07/accommodate';
 import ConfirmButton from './ch08/ConfirmButton';
 import LandingPage from './ch09/LandingPage';
 import AttendanceBook from './ch10/AttendanceBook';
-import SignUp from './ch11/Signup';
+import Calculator from './ch12/Calculator';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp/>
+    <Calculator/>
   </React.StrictMode>
 );
 
