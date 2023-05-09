@@ -13,12 +13,13 @@ import ConfirmButton from './ch08/ConfirmButton';
 import LandingPage from './ch09/LandingPage';
 import AttendanceBook from './ch10/AttendanceBook';
 import Calculator from './ch12/Calculator';
+import ProfileCard from './ch13/ProfileCard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator/>
+    <ProfileCard/>
   </React.StrictMode>
 );
 
